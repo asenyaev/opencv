@@ -76,6 +76,13 @@
 }
 
 {
+   png_do_expand_palette_rgb8_neon
+   Memcheck:Leak
+   ...
+   fun:png_do_expand_palette_rgb8_neon
+}
+
+{
    png_do_expand_palette
    Memcheck:Leak
    ...
@@ -102,13 +109,6 @@
    Memcheck:Value8
    ...
    fun:png_read_image
-}
-
-{
-   vld3_dup_u8
-   Memcheck:Leak
-   ...
-   fun:vld3_dup_u8
 }
 
 {
@@ -177,6 +177,13 @@
 {
    png_do_expand_palette_rgba8_neon
    Memcheck:Value8
+   ...
+   fun:png_do_expand_palette_rgba8_neon
+}
+
+{
+   png_do_expand_palette_rgba8_neon
+   Memcheck:Leak
    ...
    fun:png_do_expand_palette_rgba8_neon
 }
