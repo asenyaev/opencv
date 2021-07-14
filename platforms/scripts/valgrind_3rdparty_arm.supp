@@ -146,17 +146,17 @@
 }
 
 {
-   ZN2cv32cvCreateVideoWriter_FFMPEG_proxyERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEidRKNS_5Size_IiEERKNS_21VideoWriterParametersE
+   cv::cvCreateVideoWriter_FFMPEG_proxy(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, double, cv::Size_<int> const&, cv::VideoWriterParameters const&)
    Memcheck:Leak
    ...
-   fun:_ZN2cv32cvCreateVideoWriter_FFMPEG_proxyERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEidRKNS_5Size_IiEERKNS_21VideoWriterParametersE
+   fun:cv::cvCreateVideoWriter_FFMPEG_proxy(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, double, cv::Size_<int> const&, cv::VideoWriterParameters const&)
 }
 
 {
-   ZNK2cv23StaticBackendWithParams12createWriterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEidRKNS_5Size_IiEERKNS_21VideoWriterParametersE
+   cv::StaticBackendWithParams::createWriter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, double, cv::Size_<int> const&, cv::VideoWriterParameters const&) const
    Memcheck:Leak
    ...
-   fun:_ZNK2cv23StaticBackendWithParams12createWriterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEidRKNS_5Size_IiEERKNS_21VideoWriterParametersE
+   fun:cv::StaticBackendWithParams::createWriter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, double, cv::Size_<int> const&, cv::VideoWriterParameters const&) const
 }
 
 {
