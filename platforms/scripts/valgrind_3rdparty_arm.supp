@@ -83,23 +83,11 @@
 }
 
 {
-   png_do_read_transformations
+   libpng
    Memcheck:Value8
    ...
    fun:png_do_read_transformations
-}
-
-{
-   png_read_row
-   Memcheck:Value8
-   ...
    fun:png_read_row
-}
-
-{
-   png_read_image
-   Memcheck:Value8
-   ...
    fun:png_read_image
 }
 
