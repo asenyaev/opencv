@@ -2,6 +2,8 @@
 
 ### Resources
 
+
+
 * Homepage: <https://opencv.org>
   * Courses: <https://opencv.org/courses>
 * Docs: <https://docs.opencv.org/master/>
